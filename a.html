@@ -1,0 +1,42 @@
+<html>
+    <body ng-app="mtapp">
+
+
+
+
+<h2>student Form</h2>
+<form>
+<div class="form-group">
+<label for="studentid"> NAME:</label>
+<input type="text" id="studentid" ng-model="student.customerid" required>
+</div>
+<div class="form-group">
+<label for="firstname">last Name:</label>
+<input type="text" id="firstname" ng-model="student.firstname" required>
+</div>
+<div class="form-group">
+<label for="middlename">Middle Name:</label>
+<input type="text" id="middlename" ng-model="student.middlename">
+</div>
+<div class="form-group">
+<label for="surname">Last Name</label>
+<input type="text" id="surname" ng-model="student.surname" required>
+</div>
+<div class="form-group">
+<label for="address">Address:</label>
+<textarea id="address" ng-model="student.address" required></textarea>
+</div>
+<div class="form-group">
+<label for="phoneno">Phone Number:</label>
+<input type="tel" id="phoneno" ng-model="student.phoneno" required>
+</div>
+<div class="form-group">
+<label for="email">Email:</label>
+<input type="email" id="email" ng-model="student.email" required>
+</div>
+    
+
+</div>
+</form>
+</body>
+</html>
